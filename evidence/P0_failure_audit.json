@@ -1,0 +1,1158 @@
+{
+  "selection": "All ten historical selected failure traces; not a prevalence sample",
+  "caveat": "Dedup events show eligibility overlap, not proof each event caused an omission",
+  "cases": [
+    {
+      "query_id": 82890,
+      "title": "Et diskussionspapir om litteratursøgning på Humaniora",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations",
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 6533,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "cross_field_bridges"
+          ]
+        },
+        {
+          "candidate_id": 72844,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 20645,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 18111,
+          "grade": 2,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 5
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 0.9578347709816888,
+          "grade": 0.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 0.8261942844722937,
+          "grade": 1.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 5,
+          "empty": 0,
+          "gain_retention": 0.7777777777777778
+        },
+        "B0_fixed": {
+          "ndcg": 0.5524155465547719,
+          "grade": 0.75,
+          "recall": 0.5,
+          "recall_legacy_zero": 0.5,
+          "returned": 4,
+          "empty": 0,
+          "gain_retention": 0.4444444444444444
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.850322796336248,
+          "grade": 0.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.796648685005372,
+          "grade": 1.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8888888888888888
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.850322796336248,
+          "grade": 1.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.850322796336248,
+          "grade": 0.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 15688,
+      "title": "Vibration Characteristics of Cooled Single-Crystal Gas Turbine Blades",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 59874,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 86850,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 61507,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 93263,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 35047,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 4
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 0.9951844850750728,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 0.9951844850750728,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8344546878370211,
+          "grade": 1.8333333333333333,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.7741935483870968
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9566711899571559,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.9762940786437024,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.9762940786437024,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.972695841896577,
+          "grade": 2.0,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 41014,
+      "title": "Systematic screening of medicines for associations with cancer risk in a Scottish population-based database: a nested case-control study",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 77035,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 79362,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 88416,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 30161,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 99753,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 92455,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 5,
+            "methodological_neighbors": 7
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8539316501572934,
+          "grade": 1.7142857142857142,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 0.8
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9609247825245573,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.9182162519778516,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 74836,
+      "title": "Sentinel seroprevalence of SARS-CoV-2 in the Gauteng province, South Africa August to October 2020",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations",
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 56584,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 71600,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 80211,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 82002,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 47013,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 5,
+            "methodological_neighbors": 7
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8687949224876581,
+          "grade": 2.0,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9818483242455303,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.951231200062686,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 84796,
+      "title": "Rational Design of Sulfur-Doped Three-Dimensional Ti 3 C 2 T x MXene/ZnS Heterostructure as Multifunctional Protective Layer for Dendrite-Free Zinc-Ion Batteries",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations",
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 87446,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 83289,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 64158,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 61720,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "cross_field_bridges"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 14605,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 5,
+            "methodological_neighbors": 7
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8435378753444458,
+          "grade": 2.0,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.956591277102318,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 1.0,
+          "grade": 2.142857142857143,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 1.0,
+          "grade": 1.875,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 19394,
+      "title": "Influencia del marketing digital en la decisión de compra del consumidor paraguayo, 2022",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 38668,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 33599,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "cross_field_bridges"
+          ]
+        },
+        {
+          "candidate_id": 77092,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 48150,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 51541,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 4,
+            "methodological_neighbors": 5
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8545969281063438,
+          "grade": 2.0,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 0.8108108108108109
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9581310633396661,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 1.0,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 1.0,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.8758326269317206,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 80235,
+      "title": "A Computational Account of Investor Behaviour in Chinese and US Market",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "background_foundations",
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 74107,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 66888,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 88591,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 90981,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 69132,
+          "grade": 3,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 6
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 2.4285714285714284,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8346262032574685,
+          "grade": 2.3333333333333335,
+          "recall": 0.8333333333333334,
+          "recall_legacy_zero": 0.8333333333333334,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8157894736842105
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.942114273396151,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.8586399101659966,
+          "grade": 2.3333333333333335,
+          "recall": 0.8333333333333334,
+          "recall_legacy_zero": 0.8333333333333334,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8157894736842105
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.9735039795013062,
+          "grade": 2.4285714285714284,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.8775397848265772,
+          "grade": 2.125,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 64271,
+      "title": "EDUCATION INTERVENTIONS IN PRIMARY CARE TO IMPROVE CHRONIC PAIN OUTCOMES",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 79360,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 15885,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 32115,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "background_foundations"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 38759,
+          "grade": 2,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 5
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 1.0,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 1.0,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8832264745243287,
+          "grade": 1.2857142857142858,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 0.8421052631578947
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9569023661763644,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.9436833895329457,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.9436833895329457,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.8802424056509502,
+          "grade": 1.375,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 48124,
+      "title": "QUANTITY: An isobaric tag for quantitative glycomics",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 2
+      },
+      "empty_roles": [
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 37672,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 35673,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 56722,
+          "grade": 2,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 6
+          }
+        },
+        {
+          "candidate_id": 57976,
+          "grade": 2,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 7
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 0.9673870816166575,
+          "grade": 1.75,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 0.9673870816166575,
+          "grade": 1.75,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8506057121627452,
+          "grade": 1.6666666666666667,
+          "recall": 0.6,
+          "recall_legacy_zero": 0.6,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.76
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.971811182061859,
+          "grade": 1.75,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.921788026080315,
+          "grade": 1.7142857142857142,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 0.88
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.9840598120833782,
+          "grade": 1.75,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.9754260230020793,
+          "grade": 1.75,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 8,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    },
+    {
+      "query_id": 61945,
+      "title": "EVIDENCE FOR BIOLOGICAL AGE ACCELERATION AND TELOMERE SHORTENING IN COVID19 SURVIVORS",
+      "omission_reasons": {
+        "per_role_budget_or_ranking": 1
+      },
+      "empty_roles": [
+        "cross_field_bridges"
+      ],
+      "dedup_events": [
+        {
+          "candidate_id": 67701,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors"
+          ]
+        },
+        {
+          "candidate_id": 55347,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "background_foundations"
+          ]
+        },
+        {
+          "candidate_id": 85746,
+          "selected_role": "closely_related",
+          "later_roles": [
+            "methodological_neighbors",
+            "cross_field_bridges"
+          ]
+        },
+        {
+          "candidate_id": 99582,
+          "selected_role": "methodological_neighbors",
+          "later_roles": [
+            "cross_field_bridges"
+          ]
+        }
+      ],
+      "omitted_positive_candidates": [
+        {
+          "candidate_id": 98411,
+          "grade": 2,
+          "reason": "per_role_budget_or_ranking",
+          "role_ranks": {
+            "closely_related": 4
+          }
+        }
+      ],
+      "corrected_metrics": {
+        "SPECTER2_flat": {
+          "ndcg": 0.983813794110932,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "SmartFilter": {
+          "ndcg": 0.983813794110932,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B0_fixed": {
+          "ndcg": 0.8738740685165588,
+          "grade": 1.5,
+          "recall": 0.8,
+          "recall_legacy_zero": 0.8,
+          "returned": 6,
+          "empty": 0,
+          "gain_retention": 0.8125
+        },
+        "B1_greedy_reflow": {
+          "ndcg": 0.9825510029342992,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_historical_proportional": {
+          "ndcg": 0.9975141396934472,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B2_corrected_feasible": {
+          "ndcg": 0.9975141396934472,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        },
+        "B3_two_stage": {
+          "ndcg": 0.9506332534042354,
+          "grade": 1.5714285714285714,
+          "recall": 1.0,
+          "recall_legacy_zero": 1.0,
+          "returned": 7,
+          "empty": 0,
+          "gain_retention": 1.0
+        }
+      }
+    }
+  ]
+}

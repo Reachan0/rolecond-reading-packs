@@ -1,0 +1,3217 @@
+{
+  "status": "posthoc_sensitivity_only",
+  "warning": "Removing complete Markdown JSON fences was specified only after observing outputs. It does not replace strict preregistered validity.",
+  "response_count": 288,
+  "format_counts": {
+    "strict_json": 147,
+    "json_in_code_fence": 119,
+    "other_non_json": 15,
+    "empty": 7
+  },
+  "by_model_condition": {
+    "claude-sonnet-4-6:F": {
+      "json_in_code_fence": 28,
+      "strict_json": 2,
+      "other_non_json": 4,
+      "empty": 2
+    },
+    "claude-sonnet-4-6:G": {
+      "json_in_code_fence": 29,
+      "other_non_json": 5,
+      "empty": 1,
+      "strict_json": 1
+    },
+    "claude-sonnet-4-6:R": {
+      "json_in_code_fence": 30,
+      "other_non_json": 4,
+      "empty": 2
+    },
+    "claude-sonnet-4-6:W": {
+      "json_in_code_fence": 32,
+      "other_non_json": 2,
+      "empty": 2
+    },
+    "gpt-5.5:F": {
+      "strict_json": 36
+    },
+    "gpt-5.5:G": {
+      "strict_json": 36
+    },
+    "gpt-5.5:R": {
+      "strict_json": 36
+    },
+    "gpt-5.5:W": {
+      "strict_json": 36
+    }
+  },
+  "posthoc_schema_valid": {
+    "claude-sonnet-4-6:F": 30,
+    "claude-sonnet-4-6:G": 30,
+    "claude-sonnet-4-6:R": 30,
+    "claude-sonnet-4-6:W": 32,
+    "gpt-5.5:F": 36,
+    "gpt-5.5:G": 36,
+    "gpt-5.5:R": 36,
+    "gpt-5.5:W": 36
+  },
+  "sensitivity": {
+    "summary": {
+      "claude-sonnet-4-6:F": {
+        "planned": 36,
+        "valid": 30,
+        "states": {
+          "valid": 30,
+          "invalid_response": 6
+        },
+        "valid_rate": 0.8333333333333334,
+        "input_coverage": 0.7477777777777778,
+        "input_coverage_n": 30,
+        "silver_positive_coverage": 0.8660919540229886,
+        "silver_positive_coverage_n": 29,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 30,
+        "redundancy": 0.04027777777777778,
+        "redundancy_n": 30,
+        "use_vocabulary_coverage": 0.6,
+        "use_vocabulary_coverage_n": 30
+      },
+      "gpt-5.5:F": {
+        "planned": 36,
+        "valid": 36,
+        "states": {
+          "valid": 36
+        },
+        "valid_rate": 1.0,
+        "input_coverage": 0.8738425925925926,
+        "input_coverage_n": 36,
+        "silver_positive_coverage": 0.9614285714285714,
+        "silver_positive_coverage_n": 35,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 36,
+        "redundancy": 0.08360890652557319,
+        "redundancy_n": 36,
+        "use_vocabulary_coverage": 0.5833333333333334,
+        "use_vocabulary_coverage_n": 36
+      },
+      "claude-sonnet-4-6:G": {
+        "planned": 36,
+        "valid": 30,
+        "states": {
+          "valid": 30,
+          "invalid_response": 6
+        },
+        "valid_rate": 0.8333333333333334,
+        "input_coverage": 0.790595238095238,
+        "input_coverage_n": 30,
+        "silver_positive_coverage": 0.8972906403940887,
+        "silver_positive_coverage_n": 29,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 30,
+        "redundancy": 0.09599206349206349,
+        "redundancy_n": 30,
+        "use_vocabulary_coverage": 0.6166666666666667,
+        "use_vocabulary_coverage_n": 30
+      },
+      "gpt-5.5:G": {
+        "planned": 36,
+        "valid": 36,
+        "states": {
+          "valid": 36
+        },
+        "valid_rate": 1.0,
+        "input_coverage": 0.8568783068783069,
+        "input_coverage_n": 36,
+        "silver_positive_coverage": 0.9485714285714286,
+        "silver_positive_coverage_n": 35,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 36,
+        "redundancy": 0.02447089947089947,
+        "redundancy_n": 36,
+        "use_vocabulary_coverage": 0.5763888888888888,
+        "use_vocabulary_coverage_n": 36
+      },
+      "claude-sonnet-4-6:R": {
+        "planned": 36,
+        "valid": 30,
+        "states": {
+          "valid": 30,
+          "invalid_response": 6
+        },
+        "valid_rate": 0.8333333333333334,
+        "input_coverage": 0.8101190476190475,
+        "input_coverage_n": 30,
+        "silver_positive_coverage": 0.9218390804597701,
+        "silver_positive_coverage_n": 29,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 30,
+        "redundancy": 0.11210317460317461,
+        "redundancy_n": 30,
+        "use_vocabulary_coverage": 0.6583333333333333,
+        "use_vocabulary_coverage_n": 30
+      },
+      "gpt-5.5:R": {
+        "planned": 36,
+        "valid": 36,
+        "states": {
+          "valid": 36
+        },
+        "valid_rate": 1.0,
+        "input_coverage": 0.9554894179894179,
+        "input_coverage_n": 36,
+        "silver_positive_coverage": 0.9942857142857142,
+        "silver_positive_coverage_n": 35,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 36,
+        "redundancy": 0.10500841750841751,
+        "redundancy_n": 36,
+        "use_vocabulary_coverage": 0.6736111111111112,
+        "use_vocabulary_coverage_n": 36
+      },
+      "claude-sonnet-4-6:W": {
+        "planned": 36,
+        "valid": 32,
+        "states": {
+          "valid": 32,
+          "invalid_response": 4
+        },
+        "valid_rate": 0.8888888888888888,
+        "input_coverage": 0.7515625,
+        "input_coverage_n": 32,
+        "silver_positive_coverage": 0.8376344086021504,
+        "silver_positive_coverage_n": 31,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 32,
+        "redundancy": 0.14406001984126984,
+        "redundancy_n": 32,
+        "use_vocabulary_coverage": 0.6484375,
+        "use_vocabulary_coverage_n": 32
+      },
+      "gpt-5.5:W": {
+        "planned": 36,
+        "valid": 36,
+        "states": {
+          "valid": 36
+        },
+        "valid_rate": 1.0,
+        "input_coverage": 0.956415343915344,
+        "input_coverage_n": 36,
+        "silver_positive_coverage": 0.9942857142857142,
+        "silver_positive_coverage_n": 35,
+        "outside_reference_fraction": 0.0,
+        "outside_reference_fraction_n": 36,
+        "redundancy": 0.0524841670675004,
+        "redundancy_n": 36,
+        "use_vocabulary_coverage": 0.6388888888888888,
+        "use_vocabulary_coverage_n": 36
+      }
+    },
+    "primary_tests": {
+      "claude-sonnet-4-6:G-F": {
+        "n": 25,
+        "delta": -0.012619047619047623,
+        "ci95": [
+          -0.09333333333333334,
+          0.05976190476190477
+        ],
+        "p": 0.7649047019059618,
+        "wins": 4,
+        "ties": 18,
+        "losses": 3,
+        "complete_queries": [
+          1622,
+          3310,
+          10498,
+          14652,
+          18736,
+          19394,
+          20563,
+          21956,
+          24290,
+          25397,
+          41568,
+          43286,
+          43809,
+          44229,
+          55324,
+          58637,
+          63179,
+          67584,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          94962,
+          98293
+        ],
+        "planned_queries": 36,
+        "p_holm": 1.0
+      },
+      "gpt-5.5:G-F": {
+        "n": 36,
+        "delta": -0.016964285714285716,
+        "ci95": [
+          -0.0671957671957672,
+          0.03505456349206347
+        ],
+        "p": 0.5658486830263395,
+        "wins": 2,
+        "ties": 29,
+        "losses": 5,
+        "complete_queries": [
+          1622,
+          2778,
+          3310,
+          3470,
+          10498,
+          13244,
+          14652,
+          18736,
+          19394,
+          20563,
+          21956,
+          24290,
+          25397,
+          29924,
+          41568,
+          43286,
+          43809,
+          44229,
+          48124,
+          55324,
+          58593,
+          58637,
+          59778,
+          63179,
+          67584,
+          70140,
+          71861,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          93282,
+          94962,
+          98293
+        ],
+        "planned_queries": 36,
+        "p_holm": 1.0
+      },
+      "both_models:G-F": {
+        "n": 25,
+        "delta": -0.012523809523809526,
+        "ci95": [
+          -0.05905059523809524,
+          0.03128749999999998
+        ],
+        "p": 0.5924681506369872,
+        "wins": 5,
+        "ties": 16,
+        "losses": 4,
+        "complete_queries": [
+          1622,
+          3310,
+          10498,
+          14652,
+          18736,
+          19394,
+          20563,
+          21956,
+          24290,
+          25397,
+          41568,
+          43286,
+          43809,
+          44229,
+          55324,
+          58637,
+          63179,
+          67584,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          94962,
+          98293
+        ],
+        "planned_queries": 36,
+        "unit": "query; equally average model differences, requiring both model pairs",
+        "p_holm": 1.0
+      },
+      "claude-sonnet-4-6:R-G": {
+        "n": 25,
+        "delta": -0.03066666666666666,
+        "ci95": [
+          -0.10247619047619047,
+          0.034761904761904765
+        ],
+        "p": 0.43399132017359654,
+        "wins": 2,
+        "ties": 19,
+        "losses": 4,
+        "complete_queries": [
+          1622,
+          3310,
+          10498,
+          14652,
+          19394,
+          21956,
+          24290,
+          25397,
+          41568,
+          43286,
+          43809,
+          44229,
+          55324,
+          58593,
+          58637,
+          63179,
+          67584,
+          70140,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          94962
+        ],
+        "planned_queries": 36,
+        "p_holm": 1.0
+      },
+      "gpt-5.5:R-G": {
+        "n": 36,
+        "delta": 0.09861111111111111,
+        "ci95": [
+          0.05099123677248677,
+          0.14947089947089945
+        ],
+        "p": 0.0003599928001439971,
+        "wins": 15,
+        "ties": 20,
+        "losses": 1,
+        "complete_queries": [
+          1622,
+          2778,
+          3310,
+          3470,
+          10498,
+          13244,
+          14652,
+          18736,
+          19394,
+          20563,
+          21956,
+          24290,
+          25397,
+          29924,
+          41568,
+          43286,
+          43809,
+          44229,
+          48124,
+          55324,
+          58593,
+          58637,
+          59778,
+          63179,
+          67584,
+          70140,
+          71861,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          93282,
+          94962,
+          98293
+        ],
+        "planned_queries": 36,
+        "p_holm": 0.002159956800863983
+      },
+      "both_models:R-G": {
+        "n": 25,
+        "delta": 0.03661904761904762,
+        "ci95": [
+          -0.014380952380952378,
+          0.08023809523809523
+        ],
+        "p": 0.15559688806223876,
+        "wins": 11,
+        "ties": 11,
+        "losses": 3,
+        "complete_queries": [
+          1622,
+          3310,
+          10498,
+          14652,
+          19394,
+          21956,
+          24290,
+          25397,
+          41568,
+          43286,
+          43809,
+          44229,
+          55324,
+          58593,
+          58637,
+          63179,
+          67584,
+          70140,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          94962
+        ],
+        "planned_queries": 36,
+        "unit": "query; equally average model differences, requiring both model pairs",
+        "p_holm": 0.7779844403111937
+      }
+    },
+    "auxiliary_tests": {
+      "claude-sonnet-4-6:R-W": {
+        "n": 27,
+        "delta": 0.02561728395061728,
+        "ci95": [
+          -0.04537147266313934,
+          0.09537037037037036
+        ],
+        "p": 0.4881902361952761,
+        "wins": 7,
+        "ties": 16,
+        "losses": 4,
+        "complete_queries": [
+          1622,
+          3310,
+          3470,
+          10498,
+          19394,
+          21956,
+          24290,
+          25397,
+          29924,
+          41568,
+          43286,
+          43809,
+          55324,
+          58593,
+          59778,
+          63179,
+          67584,
+          70140,
+          71861,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          93282,
+          94962
+        ],
+        "planned_queries": 36
+      },
+      "gpt-5.5:R-W": {
+        "n": 36,
+        "delta": -0.0009259259259259226,
+        "ci95": [
+          -0.02341269841269841,
+          0.021560846560846565
+        ],
+        "p": 0.9679406411871763,
+        "wins": 3,
+        "ties": 30,
+        "losses": 3,
+        "complete_queries": [
+          1622,
+          2778,
+          3310,
+          3470,
+          10498,
+          13244,
+          14652,
+          18736,
+          19394,
+          20563,
+          21956,
+          24290,
+          25397,
+          29924,
+          41568,
+          43286,
+          43809,
+          44229,
+          48124,
+          55324,
+          58593,
+          58637,
+          59778,
+          63179,
+          67584,
+          70140,
+          71861,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          93282,
+          94962,
+          98293
+        ],
+        "planned_queries": 36
+      },
+      "both_models:R-W": {
+        "n": 27,
+        "delta": 0.01263227513227513,
+        "ci95": [
+          -0.029740961199294532,
+          0.05383708112874778
+        ],
+        "p": 0.5751684966300674,
+        "wins": 8,
+        "ties": 15,
+        "losses": 4,
+        "complete_queries": [
+          1622,
+          3310,
+          3470,
+          10498,
+          19394,
+          21956,
+          24290,
+          25397,
+          29924,
+          41568,
+          43286,
+          43809,
+          55324,
+          58593,
+          59778,
+          63179,
+          67584,
+          70140,
+          71861,
+          73982,
+          75141,
+          81604,
+          82063,
+          82890,
+          83834,
+          93282,
+          94962
+        ],
+        "planned_queries": 36,
+        "unit": "query; equally average model differences, requiring both model pairs"
+      }
+    },
+    "planned_jobs": 288,
+    "valid_jobs": 266,
+    "operationally_terminal": true,
+    "warning": "Conditional valid-pair analysis; missingness may bias effects. Coverage is not content quality."
+  },
+  "per_job": [
+    {
+      "job": "24290:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "13244:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "13244:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "13244:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "10498:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "13244:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "41568:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "10498:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "14652:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "67584:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "71861:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "21956:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "13244:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "3470:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "75141:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "48124:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "1622:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "2778:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "14652:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "3470:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "81604:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "29924:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "71861:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "13244:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "13244:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "empty",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "19394:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82063:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "82890:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "83834:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "18736:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "41568:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43809:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58593:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "93282:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "58637:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "other_non_json",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": false,
+      "finish_reason": "length"
+    },
+    {
+      "job": "67584:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "2778:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3470:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "55324:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "70140:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "81604:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "94962:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "25397:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "1622:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "21956:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "10498:G:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "G",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "67584:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "63179:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "98293:W:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "W",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "24290:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "75141:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "73982:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "44229:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "48124:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "20563:W:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "W",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "3310:F:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "F",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "13244:G:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "G",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:R:claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "condition": "R",
+      "format_class": "json_in_code_fence",
+      "strict_schema_valid": false,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "43286:F:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "F",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    },
+    {
+      "job": "59778:R:gpt-5.5",
+      "model": "gpt-5.5",
+      "condition": "R",
+      "format_class": "strict_json",
+      "strict_schema_valid": true,
+      "posthoc_schema_valid": true,
+      "finish_reason": "stop"
+    }
+  ]
+}
