@@ -1,4 +1,4 @@
-"""Fixed-quantity construction-order baselines (Table II fixed rows, Fig. 3).
+"""Fixed-quantity construction-order baselines (Table III fixed rows, Fig. 3).
 
 The top-m control in the paper takes m from RoleCond's own return count per query, which a
 deployed system cannot know. Here every query gets the same k (construction order, capped by

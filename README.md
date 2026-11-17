@@ -26,12 +26,13 @@ It contains the mechanism parameters, the benchmark with its rule-based grades, 
 | Paper | Evidence | Script |
 |---|---|---|
 | Table I, gates and coefficients | `METHOD_PARAMETERS.md` | — |
-| Table II, Fig. 2: selection controls | `evidence/P0_selection.json`, `evidence/figure_statistics.json` | `code/original/prepare_evidence.py`, `code/original/plot_evidence.py` |
-| Table II fixed-k rows, Fig. 3 | `evidence/fixed_quantity_results.json` | `code/fixed_quantity.py`, `code/plot_frontier.py` |
+| Table II, example pack (query 13244) | `data/benchmark.json`, `presentation/inputs.json` (condition R groups) | — |
+| Table III, Fig. 2: selection controls | `evidence/P0_selection.json`, `evidence/figure_statistics.json` | `code/original/prepare_evidence.py`, `code/original/plot_evidence.py` |
+| Table III fixed-k rows, Fig. 3 | `evidence/fixed_quantity_results.json` | `code/fixed_quantity.py`, `code/plot_frontier.py` |
 | Fig. 4, order / quota / allocation sensitivity | `evidence/P0_grid.json`, `evidence/P0_order_ranges.json` | `code/original/prepare_evidence.py` |
 | Fig. 5, CSFCube diagnostic | `evidence/P0_external.json`, `evidence/P0_external_inference.json` | `code/original/prepare_evidence.py`, `code/original/analyze_external_failures.py` |
 | Failure cases (Section V-B) | `evidence/P0_failure_audit.json` | `code/original/analyze_external_failures.py` |
-| Tables III–IV, Fig. 6: presentation | `presentation/relaxed_metrics.json`, `presentation/interaction_results.json`, `presentation/reparse_results.json` | `code/relaxed_metrics.py`, `code/interaction.py`, `code/reparse.py`, `code/plot_presentation_both.py` |
+| Tables IV–V, Fig. 6: presentation | `presentation/relaxed_metrics.json`, `presentation/interaction_results.json`, `presentation/reparse_results.json` | `code/relaxed_metrics.py`, `code/interaction.py`, `code/reparse.py`, `code/plot_presentation_both.py` |
 | Strict format compliance | `presentation/analysis.json`, `presentation/format_audit.json` | `code/original/analyze_presentation.py`, `code/original/audit_presentation_formats.py` |
 
 ## Reproducing
